@@ -4,7 +4,10 @@
 #From a shell send the signal
 ## os.kill(<pid>, signal.SIGUSR1)
 ## kill  -s SIGUSR1 9196
- 
+
+#the code below is from 
+#https://stackoverflow.com/questions/132058/showing-the-stack-trace-from-a-running-python-application
+#I didn't get quite an interactive debugging session, which might be due to configuration of /tmp
 
 import code, traceback, signal
 
